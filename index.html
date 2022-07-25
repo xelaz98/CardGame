@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card Game (Javascript)</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <main>
+        <h1>Card Game
+            <div class="buttons">
+                 <div class="startButton">Start</div>
+                 <div class="giveFlop">Give Flop</div>
+                 <div class="giveTurn">Give Turn</div>
+                 <div class="giveRiver">Give River</div>
+                 <div class="clear">Clear</div>
+            </div>
+        </h1>
+        <div class="board">
+          <div class="enemyCards">
+            <div id="enemyCard1"><img class="playerCard" src="./images/back.svg" width="125px" /></div>  
+            <div id="enemyCard2"><img class="playerCard" src="./images/back.svg" width="125px" /></div>  
+          </div>
+          <div class="flop">
+            <img src="./images/back.svg" class="deckCard" width="125px" />
+            <img src="./images/back.svg" id="flopCard1" class="flopCard" width="125px" />
+            <img src="./images/back.svg" id="flopCard2" class="flopCard" width="125px" />
+            <img src="./images/back.svg" id="flopCard3" class="flopCard" width="125px" />
+            <img src="./images/back.svg" class="turnCard" width="125px" />
+            <img src="./images/back.svg" class="riverCard" width="125px" />
+          </div>
+         <div class="myCards">
+            <div id="myCard1"><img class="playerCard" src="./images/back.svg" width="125px" /></div>  
+            <div id="myCard2"><img class="playerCard" src="./images/back.svg" width="125px" /></div>  
+          </div>
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
